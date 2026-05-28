@@ -1,3 +1,11 @@
+# ARCHIVO: utils.py (Módulo de Funciones Auxiliares)
+# DESCRIPCIÓN: Contiene las funciones analíticas y lógicas encargadas
+#              de procesar y segmentar los datos del Titanic. Incluye
+#              la clasificación por tamaño de grupo familiar y la
+#              categorización demográfica por rangos de edad.
+# INTEGRANTES: Andrés Gómez - Juan Ramos
+
+
 import pandas as pd
 
 def clasificar_familia(cant):
