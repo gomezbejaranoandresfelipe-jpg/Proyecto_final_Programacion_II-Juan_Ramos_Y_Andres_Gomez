@@ -1,4 +1,4 @@
-## Datos del Proyecto
+# Datos del Proyecto
 
 Los archivos de datos originales (`train.csv`) deben ser descargados directamente desde la plataforma Kaggle o el entorno del curso y colocarse en esta carpeta únicamente de forma local.
 
