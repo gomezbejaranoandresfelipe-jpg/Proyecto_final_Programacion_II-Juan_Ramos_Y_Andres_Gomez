@@ -1,12 +1,36 @@
-# Excluir el dataset local (Requisito estricto de la rúbrica)
+# ARCHIVO .GITIGNORE - PROYECTO FINAL PROGRAMACIÓN II
+
+# 1. LA CARPETA data/ (Exclusión de datasets locales)
+# Evita subir los archivos CSV originales de Kaggle por restricciones de tamaño
 data/train.csv
+data/test.csv
 data/*.csv
 
-# Archivos temporales de Python y Jupyter
+# 2. ARCHIVOS TEMPORALES DE JUPYTER
+# Ignora checkpoints automáticos y metadatos innecesarios de los cuadernos
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 3. CACHÉS DE PYTHON
+# Excluye directorios de compilación e interpretación interna de scripts (.py)
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+.pytest_cache/
 
-# Archivos del sistema operativo
+# 4. ARCHIVOS PESADOS
+# Bloquea formatos de compresión o archivos de datos masivos adicionales
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 5. ARCHIVOS DE ENTORNO O CONFIGURACIÓN LOCAL
+# Ignora configuraciones del sistema operativo y entornos virtuales locales
 .DS_Store
 Thumbs.db
+.env
+venv/
+env/
