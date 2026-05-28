@@ -1,0 +1,21 @@
+Grupo_Familiar,Grupo_Etario,Tiene_Cabina,Survived
+Familia Grande,Adolescente,False,16.666666666666664
+Familia Grande,Adolescente,True,100.0
+Familia Grande,Adulto,False,12.5
+Familia Grande,Adulto,True,75.0
+Familia Grande,Mayor,True,0.0
+Familia Grande,Niño,False,7.6923076923076925
+Familia Pequeña,Adolescente,False,40.0
+Familia Pequeña,Adolescente,True,90.0
+Familia Pequeña,Adulto,False,41.007194244604314
+Familia Pequeña,Adulto,True,72.5
+Familia Pequeña,Mayor,True,33.33333333333333
+Familia Pequeña,Niño,False,93.10344827586206
+Familia Pequeña,Niño,True,81.81818181818183
+Solo,Adolescente,False,33.33333333333333
+Solo,Adolescente,True,100.0
+Solo,Adulto,False,23.67758186397985
+Solo,Adulto,True,60.46511627906976
+Solo,Mayor,False,18.181818181818183
+Solo,Mayor,True,28.57142857142857
+Solo,Niño,False,50.0
