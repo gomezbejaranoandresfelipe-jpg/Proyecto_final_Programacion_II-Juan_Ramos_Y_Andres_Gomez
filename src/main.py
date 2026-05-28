@@ -1,3 +1,12 @@
+# ARCHIVO: main.py (Script de Automatización Principal)
+# DESCRIPCIÓN: Script principal que orquesta el pipeline completo de
+#              análisis de datos del Titanic. Realiza la carga de datos
+#              desde /data, ejecuta la limpieza e imputación de nulos,
+#              aplica ingeniería de características e invoca las funciones
+#              de transformación para exportar los resultados finales 
+#              (gráficos y tablas analíticas) directamente a /outputs.
+# INTEGRANTES: Andrés Gómez - Juan Ramos
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
